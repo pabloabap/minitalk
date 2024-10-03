@@ -3,7 +3,7 @@ This project exchange message passed to client program as argument to a server u
 
 `make` generate **client** and **server** programs. 
 
-**server** prints its PID and loop infinitely.
+**server** print its PID and loop infinitely.
 **client** must get the PID of the server program and the message to transmit.
 
 The message characters are converted to bits and sended to server, `SIGUSER1`=1 and `SIGUSER2`=0. 
